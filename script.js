@@ -102,16 +102,36 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function hexToRGB(hexColor) {
+    
+        const namedColors = {
+            'black': '#000000',
+            'white': '#FFFFFF',
+            'red': '#FF0000',
+            'green': '#00FF00',
+            'blue': '#0000FF',
+            'yellow': '#FFFF00',
+            'purple': '#800080',
+            'orange': '#FFA500',
+            
+        };
+    
+        
+        if (namedColors[hexColor.toLowerCase()]) {
+            hexColor = namedColors[hexColor.toLowerCase()];
+        }
+    
+        
         if (!/^#[0-9A-Fa-f]{6}$/.test(hexColor)) {
             console.error('Invalid hex color:', hexColor);
-            return [0, 0, 0];
+            return [0, 0, 0]; 
         }
+    
         const hex = hexColor.slice(1);
         const bigint = parseInt(hex, 16);
         const r = (bigint >> 16) & 255;
         const g = (bigint >> 8) & 255;
         const b = bigint & 255;
-
+    
         return [r, g, b];
     }
 });
