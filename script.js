@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const socials = document.getElementById('socials');
 
     socials.style.opacity = 0;
-    socials.classList.add('hidden');
+    
 
     fadeIn(greeting1, 1400, function () {
         fadeOut(greeting1, 1400, function () {
