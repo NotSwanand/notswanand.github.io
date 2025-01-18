@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
             fadeIn(greeting2, 1400, function () {
                 fadeOut(greeting2, 1400, function () {
                     animateBackgroundColorChange(container, 'black', '#121212', 800);
+                    fadeIn(socials, 2000);
                 });
             });
         });
