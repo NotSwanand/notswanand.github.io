@@ -17,11 +17,12 @@ body {
 .greeting {
     display: none;
     font-family: 'Quicksand', sans-serif;
-    font-size: 24px;
+    font-size: 2rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 #socials {
@@ -36,15 +37,15 @@ h2 {
 
 .social-container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: stretch;
 }
 
 a {
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 12px 24px;
+    margin: 8px 8px;
     cursor: pointer;
     background-color: transparent;
     color: white;
@@ -54,8 +55,8 @@ a {
 }
 
 .social-container .discord:hover {
-    background-color: #2c2c2c;
-    color: #5865F2;
+    background-color: #5865F2;
+    color: #ffffff;
 }
 
 .social-container .github:hover {
