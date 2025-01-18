@@ -59,11 +59,11 @@ a {
 }
 
 .social-container .github:hover {
-    background-color: #333333; /* GitHub black */
-    color: #ffffff; /* White on hover */
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .social-container .instagram:hover {
-    background-color: #E1306C; /* Instagram pink */
-    color: #ffffff; /* White on hover */
+    background-color: #E1306C; 
+    color: #ffffff; 
 }
