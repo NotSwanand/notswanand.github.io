@@ -5,14 +5,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const socials = document.getElementById('socials');
 
     socials.style.opacity = 0;
-    
+    socials.classList.add('hidden');
 
     fadeIn(greeting1, 1400, function () {
         fadeOut(greeting1, 1400, function () {
             fadeIn(greeting2, 1400, function () {
                 fadeOut(greeting2, 1400, function () {
                     animateBackgroundColorChange(container, 'black', '#121212', 800);
-                    fadeIn(socials, 2000);
                 });
             });
         });
@@ -103,6 +102,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function hexToRGB(hexColor) {
+        if (!/^#[0-9A-Fa-f]{6}$/.test(hexColor)) {
+            console.error('Invalid hex color:', hexColor);
+            return [0, 0, 0];
+        }
         const hex = hexColor.slice(1);
         const bigint = parseInt(hex, 16);
         const r = (bigint >> 16) & 255;
