@@ -84,6 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function showSocials() {
+        console.log('Showing Socials');
         fadeIn(socials, 1000);
         socials.classList.remove('hidden');
     }
