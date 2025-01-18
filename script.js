@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    function fadeIn(element, duration, callback) {
+    function fadeIn(element, duration, callback = () => {}) {
         element.style.display = 'block';
         element.style.opacity = 0;
         let startTime = null;
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function () {
         requestAnimationFrame(fade);
     }
 
-    function fadeOut(element, duration, callback) {
+    function fadeOut(element, duration, callback = () => {}) {
         let startTime = null;
 
         function fade() {
