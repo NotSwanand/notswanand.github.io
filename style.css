@@ -118,10 +118,6 @@ a {
     margin-top: 10px; /* Optional, to add some space above the name */
 }
 
-#about {
-    margin: 0 150px;
-}
-
 .resume-container {
     margin-top: 20px;
     display: flex;
