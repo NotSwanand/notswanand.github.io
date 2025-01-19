@@ -4,6 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const container = document.querySelector('.container');
     const socials = document.getElementById('socials');
 
+    // Disable scrolling at the start of the animation
+    document.body.style.overflow = 'hidden';
+
     socials.style.opacity = 0;
     socials.classList.add('hidden');
 
@@ -87,6 +90,9 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log('Showing Socials');
         fadeIn(socials, 1000);
         socials.classList.remove('hidden');
+
+        // Re-enable scrolling after the animation
+        document.body.style.overflow = 'auto';
     }
 
     function interpolateColor(fromColor, toColor, progress) {

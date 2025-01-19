@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Socials" property="og:title">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' https://kit.fontawesome.com; img-src 'self' https://i.imgur.com;">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-eval' 'unsafe-inline' https://kit.fontawesome.com; img-src 'self' https://i.imgur.com;">
+
     <meta content="https://i.imgur.com/7JXdjG5.png" property='og:image'>
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
@@ -17,12 +18,66 @@
         <div id="greeting1" class="greeting">Hey!</div>
         <div id="greeting2" class="greeting">Swanand here.</div>
         <div id="socials" class="hidden">
-            <h2>My Socials</h2>
-            <div class="social-container">
-                <a href="https://discord.com/users/567389332147798056" target="_blank" class="discord"><i class="fa-brands fa-discord"></i></a>
-                <a href="https://github.com/NotSwanand" target="_blank" class="github"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.instagram.com/swanand_26/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <div class="profile-section">
+                <img src="https://via.placeholder.com/150" class="profile-photo">
+                <h1>Swanand Bowalekar</h1>
             </div>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm Swanand, a passionate developer with skills in creating seamless web and mobile applications. I enjoy solving problems, building innovative projects, and learning new technologies.</p>
+            </section>
+
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Web Development: HTML, CSS, JavaScript</li>
+                    <li>Backend Development: Python, Flask</li>
+                    <li>Mobile Development: Flutter</li>
+                    <li>Version Control: Git</li>
+                    <li>Database Management: MySQL, Firebase</li>
+                </ul>
+            </section>
+
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <a id="pname" href="https://github.com/NotSwanand/ShopSmart">ShopSmart</a>
+                    <p>An innovative shopping app featuring QR code scanning and seamless product management.</p>
+                </div>
+                <div class="project">
+                    <a id = "pname" href="https://github.com/NotSwanand/DecentralMed">DecentralMed</a>
+                    <p>A blockchain-based hospital database management system with enhanced data security.</p>
+                </div>
+                <div class="project">
+                    <a id= "pname" href="https://github.com/NotSwanand/FileSharing">File Sharing Website</a>
+                    <p>A peer-to-peer file-sharing platform enabling seamless transfer across devices.</p>
+                </div>
+            </section>
+
+            <section id="resume">
+                <h2>Resume Link</h2>
+                <div class="resume-container">
+                    <a href="path/to/your/resume.pdf" target="_blank" class="resume-link">Click Here</a>
+                </div>
+            </section>
+                      
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2>Socials</h2>
+                <div class="social-container">
+                    <a href="https://discord.com/users/567389332147798056" target="_blank" class="discord"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.instagram.com/swanand_26/" target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/NotSwanand" target="_blank" class="github"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/swanand-bowalekar-2620a5291/" target="_blank" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </section>
+        
+            <footer>
+                <p>&copy; 2025 My Portfolio</p>
+              </footer>
+
         </div>
     </div>
 </body>
