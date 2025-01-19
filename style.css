@@ -116,8 +116,8 @@ a {
 }
 
 .profile-section h1 {
-    font-size: 1.8rem; /* Adjust font size for the name */
-    margin-top: 10px; /* Optional, to add some space above the name */
+    font-size: 1.8rem; 
+    margin-top: 10px; 
 }
 
 .resume-container {
@@ -161,13 +161,13 @@ a {
 }
 
 .arrow-left {
-    border-bottom: 10px solid white;  /* Arrow pointing downwards */
-    left: -20px;  /* Position to the left of the text */
+    border-bottom: 10px solid white;  
+    left: -20px;  
 }
 
 .arrow-right {
-    border-top: 10px solid white;  /* Arrow pointing upwards */
-    right: -20px;  /* Position to the right of the text */
+    border-top: 10px solid white; 
+    right: -20px;  
 }
 
 footer {
