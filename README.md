@@ -46,7 +46,7 @@ portfolio-website/
 └── assets/          # Images and other assets
 ```
 
-##How to Use
+## How to Use
 
 - Open the website to see my portfolio.
 
@@ -66,6 +66,6 @@ portfolio-website/
 
 
 
-##Contact
+## Contact
 
 Feel free to reach out to me through the links provided in the Contact Section of the website.
