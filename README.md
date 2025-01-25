@@ -25,4 +25,45 @@ This is my personal portfolio website showcasing my projects, skills, and contac
    ```bash
    git clone https://github.com/your-username/portfolio-website.git
    cd portfolio-website
+
+2. Open the index.html file in your browser:
 ```
+open index.html
+```
+
+Or, serve it using a local development server like Live Server in VS Code.
+
+
+
+Project Structure
+```
+portfolio-website/
+├── index.html       # Main HTML file
+├── style.css        # Styling for the website
+├── script.js        # JavaScript functionality
+└── assets/          # Images and other assets
+```
+
+##How to Use
+
+- Open the website to see my portfolio.
+
+- Navigate through the sections:
+
+- Greeting Section introduces me.
+
+- About Me provides a summary of my interests and expertise.
+
+- Skills lists my technical proficiencies.
+
+- Projects showcases some of my best work.
+
+- Resume lets you download my CV.
+
+- Contact Section connects you to my social media profiles.
+
+
+
+##Contact
+
+Feel free to reach out to me through the links provided in the Contact Section of the website.
